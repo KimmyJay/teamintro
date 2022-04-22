@@ -1,0 +1,77 @@
+* {
+    font-family: 'Gowun Dodum', sans-serif;
+}
+.wrap {
+    height: 1000px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+
+.wraptitle {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+
+
+.title {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    background-image: linear-gradient(0deg, rgba(100, 100, 100, 0.5), rgba(255, 255, 255, 0.5)),
+        url('https://mblogthumb-phinf.pstatic.net/MjAyMDEwMDVfNjkg/MDAxNjAxODgzMTQzNTY0.Tb-uAsW6brXmC7CfDVo68MkejTR01IN7GtZcLsWMYfgg.5TLNEtI2xjfuu98X6wBX96Jwxbbfk8sT1auEl5jaKcAg.JPEG.jbmaeng2/1.jpg?type=w800');
+    background-position: center;
+    background-size: cover;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.introduce {
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.wrapcard {
+    width: 70%;
+    margin: auto;
+}
+.center {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+    margin: auto;
+}
+.w-btn {
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 2% 2%;
+    border-radius: 10px;
+    font-family: 'paybooc-Light', sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+.w-btn:hover {
+    letter-spacing: 2px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.w-btn:active {
+    transform: scale(1.5);
+}
